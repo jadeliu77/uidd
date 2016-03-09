@@ -1,0 +1,40 @@
+body {
+    background-repeat:no-repeat;
+    background-size: 900px 620px;
+}
+
+#contain1{
+    margin-top: 2%;
+    width: 620px;
+    margin-left: 5%;
+}
+
+
+
+h1{
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration:none;
+}
+
+.flex-item {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: 5%;
+}
+
+.flex-item2 {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.flex-row{
+    flex-direction:row;
+}
