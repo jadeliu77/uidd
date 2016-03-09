@@ -1,0 +1,18 @@
+body {
+    background-image: url(http://d2t44wh9rnwl5y.cloudfront.net/gsc/O0J97S/ea/80/90/ea80903d710f4b5bb25e286fb230a9c3/images/home/bg.jpg?token=85c721b69a8222cb14663f099b4a5519);
+    background-repeat:no-repeat;
+
+}
+
+#contain{
+    margin-top: 15%;
+    text-align: center;
+    width: 918px;
+    height: auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 70px;
+    color: white;
+}
