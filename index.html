@@ -4,6 +4,25 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("h3").mouseover(function(){
+                    $("p").fadeIn();
+                });
+    
+                $("h3").mouseout(function(){
+                    $("p").fadeOut();
+                });
+            });            
+        </script>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("bla");
+            x.style.backgroundColor = "red"; 
+        }
+        </script>
+        
     </head>
     
     <body>
@@ -13,7 +32,7 @@
         <br>
             <br>
             <br>
-        <a href="page1.htm"><h2>CLICK FOR INFO</h2></a>  
-        </div>
-        
+        <a href="page1.htm"><h2 id="bla">CLICK FOR INFO</h2></a>
+        <button type="button" onclick="myFunction()">Click!</button>
+        </div>    
     </body>

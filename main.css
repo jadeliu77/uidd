@@ -25,4 +25,19 @@ a {
 
 h2{
     color: black;
+    -webkit-transition: font-size 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 0.2s;
+    position: fixed;
+    margin-bottom: 20px;
+    margin-left: 25%;
+}
+
+h2:hover {
+    font-size: 30px;
+
+    
+}
+
+p {
+    display: none;
 }
